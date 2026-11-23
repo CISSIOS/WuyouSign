@@ -1,0 +1,29 @@
+name: 功能建议
+description: 想要的能力、觉得别扭的交互
+title: "[建议] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你现在卡在哪
+      description: 描述真实场景，不要只写「希望更好用」
+      placeholder: 每次续签前都要手动点一遍，想让它在我睡前自动跑
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你希望它怎么表现
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App 版本
+      placeholder: 8.2.0 (8200)
+    validations:
+      required: false
