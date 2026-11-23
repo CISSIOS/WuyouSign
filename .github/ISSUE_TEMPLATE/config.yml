@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 安装说明 / 常见问题
+    url: https://github.com/OWNER/REPO#遇到问题
+    about: 先看 README 里的系统要求和配对说明，能省一轮来回。
