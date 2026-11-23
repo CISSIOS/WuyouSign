@@ -38,7 +38,9 @@
 两种用法，效果一样：
 
 1. **地址**：在「源 → 添加源」里填源地址。
-   - 本仓库的稳定地址：`https://raw.githubusercontent.com/wuyouqian/WuyouSign/main/source/apps.json`
+   - 主地址（国内可达）：`https://fastly.jsdelivr.net/gh/CISSIOS/WuyouSign@main/source/apps.json`
+   - 备用地址：`https://gcore.jsdelivr.net/gh/CISSIOS/WuyouSign@main/source/apps.json`
+   - GitHub 原始地址：`https://raw.githubusercontent.com/CISSIOS/WuyouSign/main/source/apps.json`
    - 官方站点的地址：`https://wuyouqian.top/apps.json`
 2. **手动导入**：把本仓库的 [`source/apps.json`](source/apps.json) 下载到「文件」App，在「源 → 添加源 → 从文件导入 apps.json」里选它。
    地址打不开、服务器换域名、只拿到一份 JSON 的时候用这个。导入后和网络源一样可以刷新、可以删；同名文件重复导入等于更新。
