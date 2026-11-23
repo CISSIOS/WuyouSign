@@ -1,0 +1,81 @@
+name: 问题反馈
+description: 安装、配对、续签、界面异常都走这个模板
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        填得越具体，定位越快。**下面 5 项缺一项，基本就只能靠猜了。**
+        Apple ID、描述文件里的邮箱请先打码。
+
+  - type: input
+    id: app-version
+    attributes:
+      label: App 版本
+      description: 「设置 → 关于」里直接能看到，形如 8.2.0 (8200)
+      placeholder: 8.2.0 (8200)
+    validations:
+      required: true
+
+  - type: input
+    id: ios-device
+    attributes:
+      label: iOS 版本 + 机型
+      description: 设置 → 通用 → 关于本机
+      placeholder: iOS 16.7.11 / iPhone 8
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 出问题在哪一步
+      options:
+        - 配对（免电脑配对 / 导入配对文件）
+        - 安装应用
+        - 续签
+        - 连接通道（提示隧道 / VPN 相关）
+        - 界面显示 / 卡顿
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么
+      description: 你点了什么、本来期望怎样、实际怎样。能复现的话写下步骤。
+      placeholder: |
+        1. 进「源」，导入 apps.json
+        2. 点某个应用安装
+        3. 进度条走到「正在签名」后报错……
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 诊断日志
+      description: 「设置 → 诊断日志」，把出错前后那几十行贴进来（邮箱打码）
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图
+      description: 直接把图片拖进来
+    validations:
+      required: false
+
+  - type: input
+    id: pairing-mode
+    attributes:
+      label: 配对方式
+      description: 「配对」页顶部显示的那个
+      placeholder: 已配对（旧式配对）/ 已配对（远程配对）/ 未配对
+    validations:
+      required: false
