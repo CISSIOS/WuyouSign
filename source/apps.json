@@ -1,0 +1,35 @@
+{
+  "name": "无忧签官方源",
+  "identifier": "top.wuyouqian.official",
+  "subtitle": "无忧签官方发布",
+  "description": "无忧签自己的应用源：这里只放官方构建。安装包用你自己的 Apple ID 重签，7 天后需要回来续一次。",
+  "iconURL": "https://github.com/CISSIOS/WuyouSign/raw/main/source/icon.png",
+  "website": "https://github.com/CISSIOS/WuyouSign",
+  "tintColor": "#1F6FEB",
+  "featuredApps": [
+    "com.wuyouqian.WuyouSign"
+  ],
+  "apps": [
+    {
+      "name": "无忧签",
+      "bundleIdentifier": "com.wuyouqian.WuyouSign",
+      "developerName": "无忧签",
+      "subtitle": "用免费 Apple ID 给 iPhone 装应用，不用电脑",
+      "localizedDescription": "免电脑配对、连接通道自检、免费证书签名与续签。iOS 16 及更早需要电脑导出一次配对文件。",
+      "iconURL": "https://github.com/CISSIOS/WuyouSign/raw/main/source/icon.png",
+      "tintColor": "#1F6FEB",
+      "category": "utilities",
+      "version": "8.2.1",
+      "versionDate": "2026-11-23T17:14:03+08:00",
+      "versionDescription": "修复续签匹配不到应用、续签失败静默、iOS 16 免电脑配对白等 150 秒、断连被误报成 VPN 异常；新增手动导入源包。",
+      "downloadURL": "https://github.com/CISSIOS/WuyouSign/releases/download/v8.2.1/WuyouSign_8.2.1.ipa",
+      "size": 11570367,
+      "minOSVersion": "15.0",
+      "wuyouqian": {
+        "build": 8210,
+        "channel": "stable",
+        "note": "签名到期时间由客户端从装好的描述文件里读，不在这里写死。"
+      }
+    }
+  ]
+}
