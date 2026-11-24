@@ -82,7 +82,7 @@ def main():
                 "category": "utilities",
                 "version": args.version,
                 "versionDate": datetime.now().astimezone().isoformat(timespec="seconds"),
-                "versionDescription": "修复续签匹配不到应用、续签失败静默、iOS 16 免电脑配对白等 150 秒、断连被误报成 VPN 异常；新增手动导入源包。",
+                "versionDescription": "新增「添加源」页导入 IPA 并签名安装；支持 GBox 明文 appRepositories 源；修复续签匹配不到应用、续签失败静默、iOS 16 免电脑配对白等 150 秒、断连被误报成 VPN 异常；新增手动导入源包。",
                 "downloadURL": download,
                 "size": size,
                 "minOSVersion": "15.0",
