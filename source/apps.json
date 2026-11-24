@@ -20,10 +20,10 @@
       "tintColor": "#1F6FEB",
       "category": "utilities",
       "version": "8.2.1",
-      "versionDate": "2026-11-23T17:18:44+08:00",
-      "versionDescription": "修复续签匹配不到应用、续签失败静默、iOS 16 免电脑配对白等 150 秒、断连被误报成 VPN 异常；新增手动导入源包。",
+      "versionDate": "2026-11-25T03:32:55+08:00",
+      "versionDescription": "新增「添加源」页导入 IPA 并签名安装；支持 GBox 明文 appRepositories 源；修复续签匹配不到应用、续签失败静默、iOS 16 免电脑配对白等 150 秒、断连被误报成 VPN 异常；新增手动导入源包。",
       "downloadURL": "https://github.com/CISSIOS/WuyouSign/releases/download/v8.2.1/WuyouSign_8.2.1.ipa",
-      "size": 11570449,
+      "size": 11599435,
       "minOSVersion": "15.0",
       "wuyouqian": {
         "build": 8210,
